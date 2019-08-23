@@ -1,0 +1,23 @@
+{
+  "name": "zhanba.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanba/zhanba.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanba/zhanba.github.io/issues"
+  },
+  "homepage": "https://github.com/zhanba/zhanba.github.io#readme"
+}

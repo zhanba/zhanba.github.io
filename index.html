@@ -19,18 +19,41 @@
 </head>
 
 <body>
+    <template id="element-project-link-template">
+        <style>
+            .link {
+                text-decoration: none;
+                color: #6298ce;
+            }
+
+            .item {
+                width: 300px;
+                height: 40px;
+            }
+
+            .separator {
+                padding: 0px 6px 0px 6px;
+                margin-left: 6px;
+                border-left: 1px solid #000;
+            }
+        </style>
+        <div class="item">
+            <a class="link" target="_blank" href=""></a>
+            <span class="separator"></span>
+            <a class="link" target="_blank" href="">repo</a>
+        </div>
+    </template>
+
+
     <main class="main">
-        <div class="item">
-            <a class="link" href="https://ryannz.com">Blog</a>
-            <span class="separator"></span>
-            <a class="link" href="https://github.com/zhanba/blog">source</a>
-        </div>
-        <div class="item">
-            <a class="link" href="https://zhanba.github.io/typescript-intro">TypeScript Introduction Slide</a>
-            <span class="separator"></span>
-            <a class="link" href="https://github.com/zhanba/typescript-intro">source</a>
-        </div>
+        <project-link title="blog" url="https://ryannz.com" repo="https://github.com/zhanba/blog"></project-link>
+        <project-link title="Introduction to TypeScript" url="https://zhanba.github.io/typescript-intro"
+            repo="https://github.com/zhanba/typescript-intro"></project-link>
+
     </main>
+    <script src="./dist/index.js"></script>
 </body>
+
+
 
 </html>
